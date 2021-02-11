@@ -1,6 +1,7 @@
-version: "3.8"
+version: "3"
 services:
   app:
     build: ./infra/php
     volumes:
       - ./backend:/work
+      # docker/nginx:/etc/nginx/conf.d
